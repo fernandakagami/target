@@ -2,6 +2,16 @@
   "expo": {
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "ios": {
+      "icon": "./assets/ios-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      },
+      "package": "com.anonymous.target"
+    }
   }
 }
