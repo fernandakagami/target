@@ -2,6 +2,10 @@
   "expo": {
     "name": "target",
     "slug": "target",
+    "scheme": "target",
+    "experiments": {
+      "typedRoutes": true
+    },
     "version": "1.0.0",
     "ios": {
       "icon": "./assets/ios-icon.png"
@@ -12,6 +16,9 @@
         "backgroundColor": "#3D44CD"
       },
       "package": "com.anonymous.target"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
