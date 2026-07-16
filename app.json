@@ -15,6 +15,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#3D44CD"
       },
+      "edgeToEdgeEnabled": true,
       "package": "com.anonymous.target"
     },
     "plugins": [
